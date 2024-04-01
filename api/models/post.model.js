@@ -15,7 +15,7 @@ const postSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-    post: {
+    image: {
       type: String,
       default:
         "https://www.travelpayouts.com/blog/wp-content/uploads/2021/02/blog-images.png",
